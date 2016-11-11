@@ -1,6 +1,6 @@
-$dark_gray: #2B2E2E;
+$dark_gray: #EAC67A;
 $light_gray: #C0C1C1;
-$green: #529ECC;
+$green: #18121E;
 
 @mixin bold_font {
   font-family: 'Dosis', sans-serif;
@@ -44,13 +44,12 @@ button, .button {
 	border: none;
 	outline: none;
 	background: $green;
-	padding: 1rem 3.5rem;
+	padding: 1rem 1rem;
 	border-radius: 0.1rem;
 	a {
 		color: white;
 		text-decoration: none;
-		font-weight: bold;
-	}
+		font-weight: bold;}
 }
 
 .button {
@@ -69,12 +68,12 @@ a {
 // HEADER STYLING
 
 header {
-	background: #529ECC;
+	background: $green;
 	position: absolute;
 	top: 0;
 	width: 100%;
 	padding: 1.75rem 0;
-	border-bottom: 1.5px solid #376490;
+	border-bottom: 3.5px solid #EAC67A;
 	.header_inner {
 		width: 90%;
 		margin: 0 auto;
