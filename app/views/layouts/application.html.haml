@@ -1,14 +1,14 @@
 !!!
 %html
 %head
-  %title Notepo | Note Depot
+  %title NOTEPO | Note Depot
   = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
 %body
   %header
     .header_inner
-      = link_to "Notepo", root_path, id: 'logo'
+      = link_to "NOTEPO", root_path, id: 'logo'
 
       %nav
         - if user_signed_in?
