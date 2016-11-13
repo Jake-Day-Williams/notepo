@@ -7,4 +7,4 @@ Create, manage, and store all your notes and documents in one central location.
 With our simplified interface your documents look clean and beautiful.
 Afraid you'll lose your computer? Worried your hard drive will fail?
 Worry no more. We store your documents safely and securely in the cloud so you
-can access them from any of your devices. It's like a... note depot.
+can access them from any of your devices. It's a... note repo.
