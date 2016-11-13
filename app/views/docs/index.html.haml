@@ -5,8 +5,9 @@
         %a{ href: (url_for [doc])}
           .doc
             %p.title= doc.title
+            %p.content= truncate(doc.content, length: 90)
             %p.date= time_ago_in_words(doc.created_at)
-            %p.content= truncate(doc.content, length: 60)
+
     - else
       %h2 Create Doc!
       %p Start Creating Documents and Organizing your life!

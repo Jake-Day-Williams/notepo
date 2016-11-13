@@ -1,5 +1,7 @@
+= content_for :custom_header do
+  = link_to "⇱ Back to Docs", docs_path
+
 .wrapper_with_padding
-  = link_to "⇱ Back to Docs", docs_path, class: "button"
   #doc_show
     %h1.title= @doc.title
     %p= simple_format(@doc.content)

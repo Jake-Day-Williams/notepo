@@ -24,14 +24,16 @@ body {
 }
 
 .wrapper_with_padding {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	padding: 3.5rem 0;
+  text-align: center;
 }
 
 .clearfix:before, .clearfix:after {
 	content: " ";
 	display: table;
+  text-align: center;
 }
 
 .clearfix:after {
