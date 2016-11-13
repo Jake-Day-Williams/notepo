@@ -1,6 +1,4 @@
-# Project Name
-
-NOTEPO
+# NOTEPO
 
 ## About
 
